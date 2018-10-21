@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Query the working directory, remove the 
+# trailing new line, and pipe to pbcopy.
+pwd | tr -d '\n' | pbcopy
+
+# Just print the name of the working directory.
+pwd
+

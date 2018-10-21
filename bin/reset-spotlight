@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Turn spotlight off
+sudo mdutil -a -i off
+
+# Turn spotlight back on again
+sudo mdutil -a -i on
