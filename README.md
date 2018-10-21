@@ -2,6 +2,9 @@
 My system setup (`.bash_profile`, `.vimrc`, etc.)
 
 
+# Terminal colors
+Just double click `Solarized Dark.terminal` to add the solarized color palette to Terminal. You may want to set it as your default terminal palette in terminal preferences. 
+
 # Dependencies
 
 ## [vim-plug](https://github.com/junegunn/vim-plug)
