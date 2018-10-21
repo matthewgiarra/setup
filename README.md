@@ -1,3 +1,20 @@
+# Getting the files
+###ssh
+
+
+```
+git clone --recurse-submodules git@github.com:matthewgiarra/setup.git
+```
+
+### https
+
+
+```
+git clone --recurse-submodules https://github.com/matthewgiarra/setup
+```
+
+
+
 # What's in this repository?
 My system setup (`.bash_profile`, `.vimrc`, etc.), so that I don't have to re-remember how to set everything up when I move to a new machine.
 
