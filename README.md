@@ -1,19 +1,31 @@
-# setup
-My system setup (`.bash_profile`, `.vimrc`, etc.)
+# What's in this repository?
+My system setup (`.bash_profile`, `.vimrc`, etc.), so that I don't have to re-remember how to set everything up when I move to a new machine.
+
+## `bin` (utility programs I've written)
+1. Copy the contents of `bin` to `~/.bin`. 
+2. Make sure your `PATH` includes `~/.bin` (it should if you use the included `bash_profile`):
+
+```bash
+echo "export PATH=$PATH:~/.bin" >> ~/.bash_profile
+
+```
+
+The contents of `bin` include the following:
+
+### `pwdd`
+Like `pwd`, but copy output to the mac clipboard.
+
+### `reset_spotlight`
+Turn spotlight indexing off then on again. This appears to fix spotlight when it stops working (most of the time).
 
 
-# Terminal colors
-Just double click `Solarized Dark.terminal` to add the solarized color palette to Terminal. You may want to set it as your default terminal palette in terminal preferences. 
 
-# Dependencies
+## Terminal colors
+Double click `Solarized Dark.terminal` to add the solarized color palette to Terminal. You may want to set it as your default terminal palette in terminal preferences. 
 
-## [vim-plug](https://github.com/junegunn/vim-plug)
-This should get installed automatically if you use the included `vimrc` file. Otherwise follow the instructions at the `vim-plug`[repository](https://github.com/junegunn/vim-plug)
+## VIM stuff
 
-## [Nerdcommenter](https://github.com/scrooloose/nerdcommenter)
-`Nerdcommenter` lets you add comments in vim. We'll use the `vim-plug` installation method to install `Nerdcommenter`.
-
-1. Install `vim-plug` (see above)
-2. Reload `vimrc` or restart `vim`
-3. In `vim`, run `:PlugInstall`
+1. Copy `vimrc` to `~/.vimrc`
+2. Open `.vimrc` in `vim`
+3. In `vim`, run `:PlugInstall` to install the plugins (`Nerdcommenter` and whatever else I add).
 
