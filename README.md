@@ -46,3 +46,7 @@ Double click `Solarized Dark.terminal` to add the solarized color palette to Ter
 2. Open `.vimrc` in `vim`
 3. In `vim`, run `:PlugInstall` to install the plugins (`Nerdcommenter` and whatever else I add).
 
+
+## Textmate
+1. In Textmate Preferences, go to `Themes`.2. Select the following:
+	- Solarized
