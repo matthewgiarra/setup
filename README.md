@@ -41,10 +41,15 @@ Turn spotlight indexing off then on again. This appears to fix spotlight when it
 Double click `Solarized Dark.terminal` to add the solarized color palette to Terminal. You may want to set it as your default terminal palette in terminal preferences. 
 
 ## VIM stuff
+1. Install pathogen for vim:
 
-1. Copy `vimrc` to `~/.vimrc`
-2. Open `.vimrc` in `vim`
-3. In `vim`, run `:PlugInstall` to install the plugins (`Nerdcommenter` and whatever else I add).
+```bash
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+```
+2. Copy `vimrc` to `~/.vimrc`
+3. Open `.vimrc` in `vim`
+4. In `vim`, run `:PlugInstall` to install the plugins (`Nerdcommenter` and whatever else I add).
 
 
 ## Textmate
